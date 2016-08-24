@@ -4,15 +4,18 @@
         <attribute name="name" value=""/>
         <attribute name="authors" value="Student"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2016-08-24 03:17:05 PM"/>
+        <attribute name="saved" value="2016-08-24 03:55:36 PM"/>
         <attribute name="created" value="U3R1ZGVudDsgREVTS1RPUC1WNFVNR00yOyAyMDE2LTA4LTI0OyAwMzoxMjo0MSBQTTsgMzE5OA=="/>
-        <attribute name="edited" value="U3R1ZGVudDsgREVTS1RPUC1WNFVNR00yOyAyMDE2LTA4LTI0OyAwMzoxNzowNSBQTTsgMzIwMw=="/>
+        <attribute name="edited" value="U3R1ZGVudDsgREVTS1RPUC1WNFVNR00yOyAyMDE2LTA4LTI0OyAwMzo1NTozNiBQTTsgMzIwOQ=="/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
         <body>
             <declare name="user" type="Integer" array="False" size="" variables="user"/>
-            <assign variable="user" expression="300000 - 50000"/>
+            <declare name="remove" type="Integer" array="False" size="" variables="remove"/>
+            <input variable="user"/>
+            <input variable="remove"/>
+            <assign variable="user" expression="user-remove"/>
             <if expression="user &lt; 200000">
                 <then>
                     <output expression="&quot;&#3652;&#3617;&#3656;&#3605;&#3657;&#3629;&#3591;&#3648;&#3626;&#3637;&#3618;&#3616;&#3634;&#3625;&#3637;&#3648;&#3591;&#3636;&#3609;&#3652;&#3604;&#3657;&quot;"/>

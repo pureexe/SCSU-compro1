@@ -1,5 +1,6 @@
 begin
-  user = 300000-250000
+  input user,remove
+  user -= remove
   if user < 200000 then
     print "No TAX"
   endif
