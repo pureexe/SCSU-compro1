@@ -1,0 +1,12 @@
+begin
+  input m,n,x,y
+  if (m/x)<(n/y) then
+    print m/x
+    print m-(m/x)
+    print n-(m/x)
+  else
+    print n/y
+    print m-(n/y)
+    print n-(n/y)
+  endif
+end

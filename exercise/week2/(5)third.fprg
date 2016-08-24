@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Student"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2016-08-24 03:09:17 PM"/>
+        <attribute name="created" value="U3R1ZGVudDsgREVTS1RPUC1WNFVNR00yOyAyMDE2LTA4LTI0OyAwMzowNjo0OSBQTTsgMzIwOQ=="/>
+        <attribute name="edited" value="U3R1ZGVudDsgREVTS1RPUC1WNFVNR00yOyAyMDE2LTA4LTI0OyAwMzowOToxNyBQTTsgMzIwNw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="x" type="Integer" array="False" size="" variables="x"/>
+            <input variable="x"/>
+            <if expression="x%3==0">
+                <then>
+                    <output expression="3"/>
+                </then>
+                <else>
+                    <output expression="&quot;Not 3&quot;"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

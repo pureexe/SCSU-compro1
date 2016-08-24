@@ -1,0 +1,10 @@
+begin
+  input day1,day2,day3
+  if day1<=day2 && day1<=day3 then
+    print 'A'
+  else if day2<=day1 && day2<=day3 then
+    print 'B'
+  else
+    print 'C'
+  endif
+end

@@ -1,0 +1,9 @@
+begin
+  input x
+  if x mod 3 is 0 then
+    print 3
+  endif
+  if x mod 5 is 0 then
+    print 5
+  endif
+end

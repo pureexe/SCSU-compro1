@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Student"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2016-08-24 03:38:33 PM"/>
+        <attribute name="created" value="U3R1ZGVudDsgREVTS1RPUC1WNFVNR00yOyAyMDE2LTA4LTI0OyAwMzozMjo0OCBQTTsgMzIwNw=="/>
+        <attribute name="edited" value="U3R1ZGVudDsgREVTS1RPUC1WNFVNR00yOyAyMDE2LTA4LTI0OyAwMzozODozMyBQTTsgMzIwNw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="m" type="Integer" array="False" size="" variables="m"/>
+            <declare name="n" type="Integer" array="False" size="" variables="n"/>
+            <declare name="x" type="Integer" array="False" size="" variables="x"/>
+            <declare name="y" type="Integer" array="False" size="" variables="y"/>
+            <input variable="m"/>
+            <input variable="n"/>
+            <input variable="x"/>
+            <input variable="y"/>
+            <if expression="(m/x)&lt;(n/y)">
+                <then>
+                    <output expression="m/x"/>
+                    <output expression="m-(m/x)"/>
+                    <output expression="n-(m/x)"/>
+                </then>
+                <else>
+                    <output expression="n/y"/>
+                    <output expression="m-(n/y)"/>
+                    <output expression="n-(n/y)"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

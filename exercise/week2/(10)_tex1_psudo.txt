@@ -1,0 +1,15 @@
+begin
+  user = 300000-250000
+  if user < 200000 then
+    print "No TAX"
+  endif
+  if user >= 200000 and user < 500000 then
+    print "7% TAX"
+  endif
+  if user >= 500000 and user < 1000000 then
+    print "20% TAX"
+  endif
+  if user >= 1000000 then
+    print "30% TAX"
+  endif
+end

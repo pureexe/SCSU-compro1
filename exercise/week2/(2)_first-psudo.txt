@@ -1,0 +1,5 @@
+begin
+	input x,y
+	print y*15
+	print 100+((y*15)*((100-x)/100))
+end

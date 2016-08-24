@@ -1,0 +1,11 @@
+begin
+  input x
+  if x%3==0 && x%3!=5 then
+    print 3
+  else if x%5==0 && x%3!=0 then
+    print 5
+  else if x%5==0 && x%3==0 then
+    print 3
+    print 5
+  endif
+end

@@ -1,0 +1,8 @@
+begin
+  input x
+  if x mod 3 is 0 then
+    print 3
+  else
+    print "Not 3"
+  endif
+end

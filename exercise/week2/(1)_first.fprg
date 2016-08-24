@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Student"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2016-08-24 03:10:32 PM"/>
+        <attribute name="created" value="U3R1ZGVudDsgREVTS1RPUC1WNFVNR00yOyAyMDE2LTA4LTI0OyAwMjo1NTozNiBQTTsgMzIwOA=="/>
+        <attribute name="edited" value="U3R1ZGVudDsgREVTS1RPUC1WNFVNR00yOyAyMDE2LTA4LTI0OyAwMzoxMDozMiBQTTsgMzE5Ng=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="x" type="Real" array="False" size="" variables="x"/>
+            <declare name="y" type="Real" array="False" size="" variables="y"/>
+            <declare name="output" type="Real" array="False" size="" variables="output"/>
+            <input variable="x"/>
+            <input variable="y"/>
+            <assign variable="output" expression="100+((y*15)*((100-x)/100))"/>
+            <output expression="y*15"/>
+            <output expression="output"/>
+        </body>
+    </function>
+</flowgorithm>
