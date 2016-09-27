@@ -5,14 +5,14 @@ Problem:
 */
 #include<stdio.h>
 int main(){
-    char worker = '\n';
-    long int storage = 0,in;
+    char worker;
+    long long int storage = 0,in;
     while(1){
         scanf(" %c",&worker);
         if(worker == '.'){
             break;
         }
-        scanf("%d",&in);
+        scanf("%lld",&in);
         if(worker == '+'){
             storage += in;
         }else if(worker == '-'){
@@ -22,7 +22,7 @@ int main(){
         }else if(worker == '/'){
             storage /= in;
         }
-        printf("%d\n",storage);
+        printf("%lld\n",storage);
     }
     printf("Goodbye!");
     return 0;
