@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main(){
-    int currentCount=0,maxCount=0,interest,input = 1;
+    int currentCount=0,maxCount=0,stacking = 0,interest,input = 1;
     scanf("%d",&interest);
     while(1){
         scanf("%d",&input);
@@ -8,6 +8,7 @@ int main(){
             break;
         }
         if(input == interest){
+            stacking++;
             currentCount++;
         }else{
             currentCount = 0;
@@ -16,6 +17,6 @@ int main(){
             maxCount = currentCount;
         }
     }
-    printf("%d",maxCount);
+    printf("%d\n%d",maxCount,stacking);
     return 0;
 }
