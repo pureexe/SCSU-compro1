@@ -28,7 +28,6 @@ int main(){
         printf("%d*\n%d",cnt,top);
     }else{
         printf("%d\n%d",bs,top);
-
     }
     return 0;
 }
