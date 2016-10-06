@@ -7,7 +7,11 @@ Problem:
 int main(){
     double w,h;
     scanf("%lf %lf",&w,&h);
-    h/=100;
-    printf("%.2f",w/(h*h));
+    if(h>0&&w>0){
+        h/=100;
+        printf("%.2f",w/(h*h));
+    }else{
+        printf("invalid");
+    }
     return 0;
 }
