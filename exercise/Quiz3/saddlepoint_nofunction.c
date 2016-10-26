@@ -12,7 +12,7 @@ void main()
         }
     }
     for(i=0;i<row;i++){
-        for(j=0;j<row;j++){
+        for(j=0;j<col;j++){
             int maxRow=0,maxCol=0,minRow=INT_MAX,minCol=INT_MAX;
             for(k=0;k<row;k++)
             {
